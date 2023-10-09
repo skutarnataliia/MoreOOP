@@ -1,9 +1,8 @@
 package lotr;
 
-import lotr.GameManager;
-import lotr.King;
-import lotr.Elf;
-
 public class Main {
-    GameManager game1 = new GameManager();
+    public static void main(String[] args) {
+        GameManager game1 = new GameManager();
+        game1.fight(CharacterFactory.createCharacter(), CharacterFactory.createCharacter());
+    }
 }

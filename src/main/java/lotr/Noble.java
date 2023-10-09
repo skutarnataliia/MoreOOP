@@ -9,6 +9,6 @@ public abstract class Noble extends Character {
 
     @Override
     public void kick(Character c) {
-        c.setHp(new Random().nextInt(getPower() + 1));
+        c.setHp(c.getHp() - new Random().nextInt(getPower() + 1));
     }
 }

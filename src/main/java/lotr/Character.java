@@ -19,6 +19,10 @@ public abstract class Character {
         this.hp = hp > 0 ? hp : 0;
     }
 
+    public void setPower(int power) {
+        this.power = power > 0 ? power : 0;
+    }
+
     public String toString() {
         return this.getClass().getSimpleName() + "{hp=" + hp + ", power=" + power + "}";
     }

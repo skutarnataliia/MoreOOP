@@ -7,6 +7,6 @@ public class Hobbit extends Character {
 
     @Override
     public void kick(Character c) {
-        System.out.println("*Crying*");
+        System.out.println("*Hobbit is crying*");
     }
 }
